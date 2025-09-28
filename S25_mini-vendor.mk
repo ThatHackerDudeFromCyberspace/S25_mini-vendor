@@ -344,11 +344,9 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl-mediatek.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/thermal.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
@@ -363,7 +361,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/lights.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@5.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/power.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
@@ -371,11 +368,7 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/memtrack.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio.primary.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6739.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@2.0-impl.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/sound_trigger.primary.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6739.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.gyro.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibraryWrapper.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
