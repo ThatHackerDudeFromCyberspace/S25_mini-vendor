@@ -690,7 +690,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/system/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-	vendor/welcome/S25_mini/proprietary/system/priv-app/ImsService/ImsService.apk:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ImsService/ImsService.apk \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
@@ -733,4 +732,15 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.usb.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.rc
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.rc \
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ImsService
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_BUILT_MODULE_STEM := package.apk
+# Make sure the build system doesn't try to resign the APK
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+LOCAL_SRC_FILES := vendor/welcome/S25_mini/proprietary/system/priv-app/ImsService/ImsService.apk
+include $(BUILD_PREBUILT)
