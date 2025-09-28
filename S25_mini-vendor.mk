@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcam.hal3a.v3.nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.nvram.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libem_camera_jni.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster4.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwnode.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
