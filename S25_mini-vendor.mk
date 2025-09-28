@@ -258,7 +258,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_fwkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fwkutils.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_pipelinepolicy-security.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipelinepolicy-security.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtktinyxml.so \
