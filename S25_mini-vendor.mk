@@ -357,7 +357,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio.r_submix.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/hwcomposer.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/lights.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
