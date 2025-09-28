@@ -63,8 +63,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstereoinfoaccessor_vsdof.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.logicalmodule.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
@@ -80,7 +78,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.pdtblgen.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.customer.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
@@ -113,7 +110,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fsc.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/vendor.mediatek.hardware.mtkradioex@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkradioex@1.3.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcam.hal3a.cctsvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.cctsvr.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
@@ -139,7 +135,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/gc2355_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2355_mipi_raw_IdxMgr.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifitest.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirect-coredump.so \
@@ -151,7 +146,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster4.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwnode.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkutils.so \
@@ -353,7 +347,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/gc2375_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375_mipi_raw_tuning.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio.usb.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6739.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.composer@2.1-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/gralloc.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so \
@@ -366,7 +359,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/sensors.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so \
