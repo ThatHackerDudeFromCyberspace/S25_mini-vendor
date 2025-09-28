@@ -736,11 +736,10 @@ PRODUCT_COPY_FILES += \
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ImsService
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_BUILT_MODULE_STEM := package.apk
-# Make sure the build system doesn't try to resign the APK
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_DEX_PREOPT := false
 LOCAL_SRC_FILES := vendor/welcome/S25_mini/proprietary/system/priv-app/ImsService/ImsService.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
