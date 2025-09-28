@@ -14,6 +14,7 @@
 
 # This file was generated with LineageFileExtractor - Created by Hackerdude (https://ko-fi.com/hackerdude)
 
+LOCAL_PATH:= $(call my-dir)
 
 PRODUCT_SOONG_NAMESPACES +=     vendor/{args.vendor}/{args.model}
 
