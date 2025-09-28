@@ -179,7 +179,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkconfig.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.atci@1.0.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_modulefactory_feature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulefactory_feature.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmhalImageCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
