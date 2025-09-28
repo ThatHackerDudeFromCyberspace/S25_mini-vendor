@@ -150,8 +150,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/gc2355_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2355_mipi_raw_tuning.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/vendor.mediatek.hardware.mtkradioex@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkradioex@1.7.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_pipelinepolicy-smvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipelinepolicy-smvr.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.vsdof_util.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_md.so \
