@@ -734,13 +734,3 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.usb.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.rc 
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := ImsService
-LOCAL_SRC_FILES := vendor/welcome/S25_mini/proprietary/system/priv-app/ImsService/ImsService.apk
-LOCAL_MODULE_PATH := $(TARGET_OUT_DATA_APPS)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
