@@ -590,14 +590,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
 	vendor/welcome/S25_mini/proprietary/system/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
 	vendor/welcome/S25_mini/proprietary/system/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-common.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-framework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-framework.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-ims-base.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-base.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-common.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-telecom-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telecom-common.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-telephony-base.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-base.jar \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-common.jar \
 	vendor/welcome/S25_mini/proprietary/system/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
