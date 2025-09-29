@@ -590,7 +590,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
 	vendor/welcome/S25_mini/proprietary/system/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
 	vendor/welcome/S25_mini/proprietary/system/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
-	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-common.jar \
 	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-framework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-framework.jar \
 	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-ims-base.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-base.jar \
 	vendor/welcome/S25_mini/proprietary/system/framework/mediatek-ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-common.jar \
@@ -656,7 +655,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 	ImsService
-#    mediatek-common \
+    mediatek-common \
 #	mediatek-framework \
 #	mediatek-ims-base \
 #	mediatek-ims-common \
