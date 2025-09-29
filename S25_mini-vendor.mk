@@ -16,7 +16,7 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-PRODUCT_SOONG_NAMESPACES +=     vendor/{args.vendor}/{args.model}
+PRODUCT_SOONG_NAMESPACES +=     vendor/welcome/S25_mini
 
 PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
