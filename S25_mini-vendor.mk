@@ -648,7 +648,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 	ImsService \
-    mediatek-common
+    mediatek-common \
 	mediatek-framework \
 	mediatek-ims-base \
 	mediatek-ims-common \
