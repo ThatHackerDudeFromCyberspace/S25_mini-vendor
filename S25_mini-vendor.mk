@@ -654,8 +654,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.rc 
 
 PRODUCT_PACKAGES += \
-	ImsService
-    mediatek-common \
+	ImsService \
+    mediatek-common
 #	mediatek-framework \
 #	mediatek-ims-base \
 #	mediatek-ims-common \
