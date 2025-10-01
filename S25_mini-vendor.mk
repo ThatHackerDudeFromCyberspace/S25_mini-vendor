@@ -699,7 +699,55 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
-	vendor/welcome/S25_mini/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc 
+	vendor/welcome/S25_mini/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmediatek_exceptionlog.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediatek_exceptionlog.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.1.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.2.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.lbs@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.gpu@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.power@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.power@2.1.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.modemdbfilter@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.modemdbfilter@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.log@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.2.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.1.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.camera.device@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.camera.device@1.1.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.3.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.dfps@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.audio@5.1.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.power@2.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_service.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkbluetooth_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkbluetooth_jni.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbessound_hd_mtk.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libdrmmtkutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdrmmtkutil.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtklimiter.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libstagefright_wfd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_wfd_mtk.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdrmmtkwhitelist.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkflvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkflvextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkmkvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkmkvextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkmpeg2extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkmpeg2extractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkalacextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkalacextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkaviextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkaviextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkadpcmextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkadpcmextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkasfextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkasfextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkmp3extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkmp3extractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/extractors/libmtkapeextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmtkapeextractor.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libaudioutilmtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioutilmtk.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkaudio_utils.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libpostalgo_3rdparty.mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpostalgo_3rdparty.mtk.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkbootanimation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkbootanimation.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so 
 
 PRODUCT_PACKAGES += \
 	ImsService \
