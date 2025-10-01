@@ -698,7 +698,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek 
+	vendor/welcome/S25_mini/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
+	vendor/welcome/S25_mini/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc 
 
 PRODUCT_PACKAGES += \
 	ImsService \
