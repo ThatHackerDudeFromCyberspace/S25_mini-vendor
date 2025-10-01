@@ -564,28 +564,96 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.clearkey.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.cas@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.1-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.health@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.log@1.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.volte_md_status.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_md_status.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@2.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.volte_imcb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imcb.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.volte_imsm_93.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imsm_93.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.volte_stack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_stack.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wod.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/modemdbfilter_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modemdbfilter_service.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.project.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.aee.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/meta_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.ago.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.ago.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.usb.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/meta_init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.modem.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/meta_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.connectivity.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/factory_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.project.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.modem.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/factory_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/multi_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/multi_init.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.sensor_1_0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sensor_1_0.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/factory_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/meta_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.project.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -644,10 +712,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.usb.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.rc 
+	vendor/welcome/S25_mini/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek 
 
 PRODUCT_PACKAGES += \
 	ImsService \
