@@ -630,7 +630,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.project.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.aee.rc \
-	vendor/welcome/S25_mini/proprietary/system/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/hw/init.aee.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.sensor_1_0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sensor_1_0.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.usb.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.ago.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.ago.rc \
@@ -754,7 +753,15 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/system/lib/libmtkbootanimation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkbootanimation.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
-	vendor/welcome/S25_mini/proprietary/system/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdirect-coredump.so 
+	vendor/welcome/S25_mini/proprietary/system/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdirect-coredump.so \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so 
 
 PRODUCT_PACKAGES += \
 	ImsService \
