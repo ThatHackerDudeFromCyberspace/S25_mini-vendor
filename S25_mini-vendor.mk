@@ -753,7 +753,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/system/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libmtkbootanimation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkbootanimation.so \
 	vendor/welcome/S25_mini/proprietary/system/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
-	vendor/welcome/S25_mini/proprietary/system/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so 
+	vendor/welcome/S25_mini/proprietary/system/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
+	vendor/welcome/S25_mini/proprietary/system/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdirect-coredump.so 
 
 PRODUCT_PACKAGES += \
 	ImsService \
