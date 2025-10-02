@@ -630,7 +630,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.project.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.aee.rc \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.sensor_1_0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sensor_1_0.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.mt6739.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6739.usb.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/init.ago.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.ago.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/hw/meta_init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.modem.rc \
@@ -875,7 +874,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/system/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/hearing_aid_audio_policy_configuration.xml \
 	vendor/welcome/S25_mini/proprietary/system/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default_volume_tables.xml \
 	vendor/welcome/S25_mini/proprietary/system/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml \
-	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so 
+	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
+	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/sensors.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6739.so 
 
 PRODUCT_PACKAGES += \
 	ImsService \
