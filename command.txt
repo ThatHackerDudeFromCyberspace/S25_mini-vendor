@@ -1,0 +1,3 @@
+Generated with:
+
+python build.py welcome S25_mini ../S25_mini/proprietary-files.txt ../S25_mini-vendor --vendor_path ../modified-rom/extracted/vendor --system_path ../modified-rom/extracted/system/system --shared_library vendor/lib/libwifi-hal.so --shared_library vendor/lib/libtinycompress.so
