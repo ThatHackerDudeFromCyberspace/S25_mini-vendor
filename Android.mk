@@ -18,11 +18,11 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),S25_mini)
 
+endif
+
 # Unholiness
 $(shell mkdir -p $(TARGET_COPY_OUT_VENDOR)/lib)
 $(shell rm -f $(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so)
 $(shell rm -f $(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so)
 $(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libwifi-hal.so $(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so)
 $(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libtinycompress.so $(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so)
-
-endif
