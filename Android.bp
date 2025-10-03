@@ -76,7 +76,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
         }
     },
-    relative_install_path: "",
+    relative_install_path: "libwifi-hal.so",
     check_elf_files: false,
     vendor: true
 }
@@ -88,7 +88,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/libtinycompress.so"],
         }
     },
-    relative_install_path: "",
+    relative_install_path: "libtinycompress.so",
     check_elf_files: false,
     vendor: true
 }
