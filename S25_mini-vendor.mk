@@ -895,5 +895,6 @@ PRODUCT_PACKAGES += \
 	mediatek-telephony-common 
 
 # Unholiness
+$(shell mkdir -p $(TARGET_COPY_OUT_VENDOR)/lib)
 $(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libwifi-hal.so $(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so)
 $(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libtinycompress.so $(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so)
