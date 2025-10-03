@@ -16,9 +16,6 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-LOCAL_OVERRIDES_PACKAGES += \
-	libwifi-hal
-
 PRODUCT_SOONG_NAMESPACES +=     vendor/welcome/S25_mini
 
 PRODUCT_COPY_FILES += \
