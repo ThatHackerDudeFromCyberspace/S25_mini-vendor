@@ -560,6 +560,7 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/firmware/rgx.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.fw \
 	vendor/welcome/S25_mini/proprietary/vendor/firmware/WIFI_RAM_CODE_6755:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_6755 \
 	vendor/welcome/S25_mini/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
+	vendor/welcome/S25_mini/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
