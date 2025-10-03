@@ -73,10 +73,10 @@ cc_prebuilt_library_shared {
     name: "vendor_lib_libwifi-hal",
     arch: {
         arm: {
-            srcs: ["vendor/lib/libwifi-hal.so"],
+            srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
         }
     },
-    relative_install_path: "proprietary/",
+    relative_install_path: "",
     check_elf_files: false,
     vendor: true
 }
@@ -85,10 +85,10 @@ cc_prebuilt_library_shared {
     name: "vendor_lib_libtinycompress",
     arch: {
         arm: {
-            srcs: ["vendor/lib/libtinycompress.so"],
+            srcs: ["proprietary/vendor/lib/libtinycompress.so"],
         }
     },
-    relative_install_path: "proprietary/",
+    relative_install_path: "",
     check_elf_files: false,
     vendor: true
 }
