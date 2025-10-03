@@ -72,7 +72,7 @@ dex_import {
 cc_prebuilt_library_shared {
     name: "vendor_lib_libwifi-hal",
     srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
-    stem: "vendor_lib_libwifi-hal",
+    stem: "libwifi-hal",
     relative_install_path: "",
     check_elf_files: false,
     vendor: true,
@@ -82,7 +82,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor_lib_libtinycompress",
     srcs: ["proprietary/vendor/lib/libtinycompress.so"],
-    stem: "vendor_lib_libtinycompress",
+    stem: "libtinycompress",
     relative_install_path: "",
     check_elf_files: false,
     vendor: true,
