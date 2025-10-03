@@ -22,4 +22,10 @@ $(shell rm -f $(PRODUCT_OUT)/$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so)
 $(shell rm -f $(PRODUCT_OUT)/$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so)
 $(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libwifi-hal.so $(PRODUCT_OUT)/$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so)
 $(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libtinycompress.so $(PRODUCT_OUT)/$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so)
+
+$(shell mkdir -p $(PRODUCT_OUT)/obj/PACKAGING/target_files_intermediates/lineage_S25_mini-target_files-$(TARGET_BUILD_VARIANT).hackerdude/VENDORlib)
+$(shell rm -f $(PRODUCT_OUT)/obj/PACKAGING/target_files_intermediates/lineage_S25_mini-target_files-$(TARGET_BUILD_VARIANT).hackerdude/VENDORlib/libwifi-hal.so)
+$(shell rm -f $(PRODUCT_OUT)/obj/PACKAGING/target_files_intermediates/lineage_S25_mini-target_files-$(TARGET_BUILD_VARIANT).hackerdude/VENDORlib/libtinycompress.so)
+$(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libwifi-hal.so $(PRODUCT_OUT)/obj/PACKAGING/target_files_intermediates/lineage_S25_mini-target_files-$(TARGET_BUILD_VARIANT).hackerdude/VENDOR/lib/libwifi-hal.so)
+$(shell cp $(LOCAL_PATH)/proprietary/vendor/lib/libtinycompress.so $(PRODUCT_OUT)/obj/PACKAGING/target_files_intermediates/lineage_S25_mini-target_files-$(TARGET_BUILD_VARIANT).hackerdude/VENDOR/lib/libtinycompress.so)
 endif
