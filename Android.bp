@@ -70,24 +70,18 @@ dex_import {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal",
-    arch: {
-        arm: {
-            srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
-        }
-    },
+    name: "vendor_lib_libwifi-hal",
+    src: "proprietary/vendor/lib/libwifi-hal.so",
+    stem: "vendor_lib_libwifi-hal"
     relative_install_path: "",
     check_elf_files: false,
     vendor: true
 }
 
 cc_prebuilt_library_shared {
-    name: "libtinycompress",
-    arch: {
-        arm: {
-            srcs: ["proprietary/vendor/lib/libtinycompress.so"],
-        }
-    },
+    name: "vendor_lib_libtinycompress",
+    src: "proprietary/vendor/lib/libtinycompress.so",
+    stem: "vendor_lib_libtinycompress"
     relative_install_path: "",
     check_elf_files: false,
     vendor: true
