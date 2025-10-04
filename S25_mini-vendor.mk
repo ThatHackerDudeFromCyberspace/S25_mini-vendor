@@ -893,5 +893,5 @@ PRODUCT_PACKAGES += \
 	mediatek-telecom-common \
 	mediatek-telephony-base \
 	mediatek-telephony-common \
-	libwifi-hal \
-	libtinycompress 
+	libwifi-hal.prebuilt \
+	libtinycompress.prebuilt 

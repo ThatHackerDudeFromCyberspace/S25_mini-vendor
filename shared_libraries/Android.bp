@@ -11,7 +11,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal",
+    name: "libwifi-hal.prebuilt",
     srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
     stem: "libwifi-hal",
     relative_install_path: "",
@@ -21,7 +21,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtinycompress",
+    name: "libtinycompress.prebuilt",
     srcs: ["proprietary/vendor/lib/libtinycompress.so"],
     stem: "libtinycompress",
     relative_install_path: "",
