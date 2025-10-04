@@ -1,0 +1,31 @@
+//
+// Copyright (C) 2025 The Android Open Source Project
+// Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// This file was generated with LineageFileExtractor - Created by Hackerdude (https://ko-fi.com/hackerdude)
+
+soong_namespace {
+}
+
+cc_prebuilt_library_shared {
+    name: "libwifi-hal",
+    srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
+    stem: "libwifi-hal",
+    relative_install_path: "",
+    check_elf_files: false,
+    vendor: true,
+    prefer: true
+}
+
+cc_prebuilt_library_shared {
+    name: "libtinycompress",
+    srcs: ["proprietary/vendor/lib/libtinycompress.so"],
+    stem: "libtinycompress",
+    relative_install_path: "",
+    check_elf_files: false,
+    vendor: true,
+    prefer: true
+}
