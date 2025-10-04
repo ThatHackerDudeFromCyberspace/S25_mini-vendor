@@ -881,7 +881,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/sensors.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml 
+	vendor/welcome/S25_mini/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+	vendor/welcome/S25_mini/proprietary/system/etc/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml 
 
 PRODUCT_PACKAGES += \
 	ImsService \
