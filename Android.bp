@@ -68,3 +68,29 @@ dex_import {
     owner: "welcome",
     jars: ["proprietary/system/framework/mediatek-telephony-common.jar"],
 }
+
+cc_prebuilt_library_shared {
+    name: "vendor_lib_libwifi-hal",
+    stem: "libwifi-hal",
+    srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
+    strip: {
+        none: true,
+    },
+    relative_install_path: "",
+    check_elf_files: false,
+    vendor: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor_lib_libtinycompress",
+    stem: "libtinycompress",
+    srcs: ["proprietary/vendor/lib/libtinycompress.so"],
+    strip: {
+        none: true,
+    },
+    relative_install_path: "",
+    check_elf_files: false,
+    vendor: true,
+    prefer: true,
+}
