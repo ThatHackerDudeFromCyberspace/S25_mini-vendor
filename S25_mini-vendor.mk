@@ -380,6 +380,8 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
+	vendor/welcome/S25_mini/proprietary/vendor/bin/swapon:$(TARGET_COPY_OUT_VENDOR)/bin/swapon \
+	vendor/welcome/S25_mini/proprietary/vendor/bin/swapoff:$(TARGET_COPY_OUT_VENDOR)/bin/swapoff \
 	vendor/welcome/S25_mini/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
 	vendor/welcome/S25_mini/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
 	vendor/welcome/S25_mini/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
@@ -870,6 +872,7 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+	vendor/welcome/S25_mini/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
 	vendor/welcome/S25_mini/proprietary/system/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_volumes.xml \
 	vendor/welcome/S25_mini/proprietary/system/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration_stub.xml \
 	vendor/welcome/S25_mini/proprietary/system/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
@@ -884,7 +887,6 @@ PRODUCT_COPY_FILES += \
 	vendor/welcome/S25_mini/proprietary/vendor/lib/hw/sensors.mt6739.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6739.so \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
 	vendor/welcome/S25_mini/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
-	vendor/welcome/S25_mini/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
 	vendor/welcome/S25_mini/proprietary/system/etc/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml 
 
 PRODUCT_PACKAGES += \
