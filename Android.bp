@@ -71,7 +71,7 @@ dex_import {
 
 cc_prebuilt_library_shared {
     name: "vendor_lib_libwifi-hal",
-    srcs: ["proprietary/vendor/lib/prebuilt.libwifi-hal.so"],
+    srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
     stem: "libwifi-hal",
     strip: {
         none: true,
@@ -84,7 +84,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor_lib_libtinycompress",
-    srcs: ["proprietary/vendor/lib/prebuilt.libtinycompress.so"],
+    srcs: ["proprietary/vendor/lib/libtinycompress.so"],
     stem: "libtinycompress",
     strip: {
         none: true,
